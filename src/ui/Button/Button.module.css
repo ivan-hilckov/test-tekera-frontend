@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  padding: 10px 18px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 12px;
+
+  border: 1px solid var(--Error-600, #d92d20);
+  background: var(--Error-600, #d92d20);
+  color: var(--Base-White, #fff);
+
+  /* Shadow/xs */
+  box-shadow: 0px 1px 2px 0px rgba(16, 24, 40, 0.05);
+
+  /* Text md/Semibold */
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+}
+
+.default {
+  border: 1px solid var(--Primary-600, #7f56d9);
+  background: var(--Base-Black, #000);
+  color: var(--Base-White, #fff);
+}
+
+.danger {
+  border: 1px solid var(--Error-600, #d92d20);
+  background: var(--Error-600, #d92d20);
+  color: var(--Base-White, #fff);
+}

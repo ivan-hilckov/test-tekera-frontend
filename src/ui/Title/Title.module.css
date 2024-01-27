@@ -1,0 +1,12 @@
+.root {
+  color: var(--Gray-900, #101828);
+  text-align: center;
+
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 38px; /* 126.667% */
+
+  margin-top: 96px;
+}
